@@ -7,7 +7,7 @@ export class ImageList extends Component {
             return <ImageCard key={image.id} image={image}></ImageCard>
         });
         return (
-            <div className="image-list">
+            <div className="image-list center ">
                 {images}
             </div>
         )
